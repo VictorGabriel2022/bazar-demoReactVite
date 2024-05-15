@@ -13,7 +13,7 @@ function Product() {
 
   return (
     <div>
-      <h1>Lista de Productos</h1>
+      <h1>Lista de Productos 2</h1>
       <div className="card-container">
         {productos.map((producto) => (
           <div key={producto.id} className="card">
