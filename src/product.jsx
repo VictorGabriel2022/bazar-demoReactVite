@@ -16,7 +16,7 @@ function Product() {
       <h1>Lista de Productos 2</h1>
       <div className="card-container">
         {productos.map((producto) => (
-          <div key={producto.id} className="card">
+          <div key={producto.idproducto} className="card">
             <h2>{producto.nombre}</h2>
             <img src={producto.img} alt="" height={150} />
             <p>Precio: ${producto.precio}</p>
